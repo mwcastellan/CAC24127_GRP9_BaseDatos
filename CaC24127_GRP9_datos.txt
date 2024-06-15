@@ -14,6 +14,7 @@ Desde la web se puede ingresar con: https://phpmyadmin.alwaysdata.com/
 Conectarse con WorkBench MySQL o desde el backend es: MySQL host: mysql-mcastellan.alwaysdata.net Usuario: 363082_grp9 Clave: CaC24127GRP9 (*)
 
 
-BackEnd: Estoy viendo conectarme desde VERCEL o ALWAYSDATA...Pero ya el desarrollo en Local que ya direcciones a (*)
+BackEnd: https://tpo-nodejs-bb.vercel.app/pedidos/
+
 
 
