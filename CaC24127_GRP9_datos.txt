@@ -18,6 +18,7 @@ Base Datos MySQL:
 
 BackEnd: https://tpo-nodejs-bb.vercel.app/pedidos/
 - Está instalado en Vercel y replica automáticamente desde GitHub.
+- https://vercel.com/mwcastellans-projects
 - La aplicación ya hace referencia a la base en allways.com.
 - Siempre está activa.
 
