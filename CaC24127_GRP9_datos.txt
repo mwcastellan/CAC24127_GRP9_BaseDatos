@@ -11,7 +11,7 @@ BackEnd TP2:
 
 Base Datos MySQL:
     https://www.alwaysdata.com/en/
-    Login: mcastellan@yahoo.com Clave: Uriel0939*
+    Login: mcastellan@yahoo.com Clave: (Me la piden...)
     Base de Datos: MYSQL --> Esquema: MCASTELLAN_GRP9 --> Usuario: 363082_grp9 Clave: CaC24127GRP9
     Desde la web se puede ingresar con: https://phpmyadmin.alwaysdata.com/
     Tambien se pueden conectar con WorkBench MySQL o desde el backend es: 
@@ -25,6 +25,13 @@ BackEnd: https://tpo-nodejs-bb.vercel.app/
 - https://vercel.com/mwcastellans-projects
 - La aplicación ya hace referencia a la base en allways.com.
 - Siempre está activa.
+
+FrontEnd: https://tpo-nodejs-bf.vercel.app/
+- Agregué solo probar la parte front, si llegamos a hacerlo.
+- Está instalado en Vercel y replica automáticamente desde GitHub.
+- https://vercel.com/mwcastellans-projects
+- Siempre está activa.
+
 
 
 
