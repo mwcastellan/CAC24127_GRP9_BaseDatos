@@ -1,13 +1,13 @@
 CaC24127_GRP9: DATOS
 --------------------
-
 Git Repositorios:
 FontEnd TP1: https://github.com/mwcastellan/tpo_nodejs_fron
 
+-----------------------------------------------------------------------
 BackEnd TP2:
-    Script Base Datos: https://github.com/mwcastellan/tpo_nodejs_bd
-    BackEnd: https://github.com/mwcastellan/tpo_nodejs_bb
-    FrontEnd Testing BackEnd: https://github.com/mwcastellan/tpo_nodejs_bf (ver...)
+    Script Base Datos.......: https://github.com/mwcastellan/tpo_nodejs_bd
+    BackEnd.................: https://github.com/mwcastellan/tpo_nodejs_bb
+    FrontEnd Testing BackEnd: https://github.com/mwcastellan/tpo_nodejs_bf
 
 Base Datos MySQL:
     https://www.alwaysdata.com/en/
@@ -20,14 +20,31 @@ Base Datos MySQL:
         Clave: CaC24127GRP9
 
 BackEnd: https://tpo-nodejs-bb.vercel.app/
-- Agregué solo /pedidos, /productos que solo devuelven datos (json).
+- Agregué :
+// Ingreso a Pedidos
+app.use("/pedidos", pedidosRouter);
+// Ingreso a Productos
+app.use("/productos", productosRouter);
+// Ingreso a Productos Ordenados
+app.use("/reporte_01", reporte_01Router);
+// Ingreso a Clientes
+app.use("/clientes", clientesRouter);
+// Ingreso a Estados Pedidos
+app.use("/estado_pedidos", estado_pedidosRouter);
+// Ingreso a Subcategoria
+app.use("/subcategoria", subcategoriaRouter);
+
 - Está instalado en Vercel y replica automáticamente desde GitHub.
 - https://vercel.com/mwcastellans-projects
 - La aplicación ya hace referencia a la base en allways.com.
 - Siempre está activa.
 
+
 FrontEnd: https://tpo-nodejs-bf.vercel.app/
-- Agregué solo probar la parte front, si llegamos a hacerlo.
+- Agregué solo probar la parte front:
+https://tpo-nodejs-bf.vercel.app/pedidos.html
+https://tpo-nodejs-bf.vercel.app/productos.html (solo ver lista)
+
 - Está instalado en Vercel y replica automáticamente desde GitHub.
 - https://vercel.com/mwcastellans-projects
 - Siempre está activa.
